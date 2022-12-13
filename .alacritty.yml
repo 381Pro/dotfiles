@@ -1,0 +1,43 @@
+shell:
+  program: /bin/zsh
+  args:
+    - --login
+
+font:
+  size: 18
+  normal:
+    family: Ricty-Regular
+    style: Regular
+  bold:
+    family: Menlo-Regular
+    style: Bold
+  italic:
+    family: Ricty-Regular
+    style: Italic
+## Colors (Panda)
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#ffffff'
+
+  normal:
+    black:   '#292A2B'
+    red:     '#d71e00'
+    green:   '#5da602'
+    yellow:  '#EEEE00'
+    blue:    '#12bee7'
+    magenta: '#88658d'
+    cyan:    '#00a7aa'
+    orange:  '#B084EB'
+    white:   '#dbded8'
+  bright:
+    black:   '#292A2B'
+    red:     '#f44135'
+    green:   '#98e342'
+    yellow:  '#ffff00'
+    blue:    '#15faff'
+    magenta: '#bc93b6'
+    cyan:    '#37e5e7'
+    white:   '#f1f1ef'
+
+background_opacity: 0.85

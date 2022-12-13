@@ -1,0 +1,6 @@
+ssl_verify: true
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+auto_activate_base: false

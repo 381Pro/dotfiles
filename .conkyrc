@@ -1,0 +1,11 @@
+conky.config={
+    update_interval=10,
+    out_to_console=true,
+    out_to_stderr=false,
+    template0 = [[${top_mem name \1}${alignr}${top_mem mem \1}%]]
+};
+
+conky.text = [[
+I am on ${wireless_ap wlan0} and there
+are ${user_number} users on my system
+]]

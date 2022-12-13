@@ -1,0 +1,29 @@
+# 補間時大文字小文字無視
+set completion-ignore-case on
+# ベル無
+set bell-style none
+# 入力候補リストのディレクトリや実行可能ファイルに印をつける
+set visible-stats on
+# ファイルタイプをカラフルに
+set colored-stats on
+# 補完の接頭辞をカラフルに
+set colored-completion-prefix on
+# 実行ファイルに印を付ける
+set visible-stats on
+
+# C-(n|p)でhistory-search
+"\C-p":history-search-backward
+"\C-n":history-search-forward
+"\e[A":history-search-backward
+"\e[B":history-search-forward
+
+$if Bash
+    # スペースで特殊変数がその場で展開
+    space: magic-space
+
+    # キーバインド key: "hoge"でhogeが展開される
+    "\C-x\C-g": " | grep "
+    "\C-^": "~/"
+    "\C-x\C-b": "~/.bash_profile"
+    "\C-x\C-f": "cd ../\n"
+$endif

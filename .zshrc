@@ -116,7 +116,6 @@ alias sgate="ssh -D 12380 sshgate -Nf && scselect Aizu"
 alias sdl-host4="ssh -D 12380 dl-host4 -Nf && scselect Aizu"
 alias sgatestop="killall ssh && scselect Automatic"
 alias connect="ssh -f -N -L localhost:8139:163.143.92.182:139 paik-host && open smb://localhost:8139/share"
-#alias sccp="ssh r-sawai@sccp.nowhere.co.jp -i ~/.ssh/sccpkey"
 #alias gcc=/usr/local/bin/gcc-9
 #alias g++=/usr/local/bin/g++-9
 #alias sshstop="kill $(ps aux | grep "ssh -f" | grep -v grep | awk '{ print $2 }')"
@@ -173,8 +172,6 @@ function removegomi () {
 #neofetch
 #---------------------------------------------------------------------------
 # for zoom
-alias labmeet="op /Applications/zoom.us.app \"zoommtg://zoom.us/join?action=join&confno=599335477&pwd=RHRTSWRoenh3OFNaV1lKK0JvMy9KQT09&zc=0&mcv=0.92.11227.0929&confid=dXNzPVZLWFZpXzdwbHRCVWdkWW1fTHF4anVZTGVaZXRjU0xQTlJZWnR2S2xXQzBWQXU2Qi1hNk9KZVo4dEJDbS00Q3p2UXNINkg5eUpqR3ZCU1UuS19oMzF1MXVNTDZ6Z0hacyZ0aWQ9YThiNTM2NTcyZTlhNDZkMmIzMmM3OTQyOGU1ZDQyMGImYXBwPWZpcmVmb3g%3D&browser=firefox&t=1594028839708\""
-alias gtmeet="op /Applications/zoom.us.app \"zoommtg://zoom.us/join?action=join&confno=3161403061&pwd=aXphbTRIUjE4Z3JiSU5Ya05uTTBLQT09&zc=0&mcv=0.92.11227.0929&confid=dXNzPTQxNlctUFdYZm96ZW9yUC16d2R2OHAxLWszeW1KRDhOeXFrbWJqRnpEZ3VvOGFuaUdjMXYtcWZiU25EZUhnVE1RNlk3SjhZV0JsVGlGUTJFLm9uaVd6aGVqUHRyc2psd3ImdGlkPWE4YjUzNjU3MmU5YTQ2ZDJiMzJjNzk0MjhlNWQ0MjBiJmFwcD1maXJlZm94&browser=firefox&t=1594029087644\""
 #---------------------------------------------------------------------------
 # for Python
 export PYTHONPATH=$PYTHONPATH:$PWD
